@@ -1,11 +1,7 @@
-import sys
-from crewai import Agent, Task
 import os
 from dotenv import load_dotenv
-from crewai import Crew, Process
 from langchain_openai import AzureChatOpenAI
-import os
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
 
 load_dotenv()
